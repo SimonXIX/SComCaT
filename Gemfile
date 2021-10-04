@@ -30,7 +30,8 @@ gem 'sqlite3', '~> 1.4'
 gem 'puma', '~> 4.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
-gem 'ffi', git: 'https://github.com/ffi/ffi.git' #TEMP WORKAROUND
+#gem 'ffi', git: 'https://github.com/ffi/ffi.git' #TEMP WORKAROUND
+gem 'ffi'
 # gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'

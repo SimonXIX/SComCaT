@@ -19,13 +19,13 @@ helpdesk_role = Role.create(
 EditorialState.create({name: 'draft'})
 EditorialState.create({name: 'published'})
 
-# user = User.new
-# user.email = ''
-# user.forenames = ''
-# user.lastname = ''
-# user.password = ''
-# user.password_confirmation = ''
-# user.roles << admin_role
-# user.roles << edit_role
-# user.roles << helpdesk_role
-# user.save!
+user = User.new
+user.email = ''
+user.forenames = ''
+user.lastname = ''
+user.password = ''
+user.password_confirmation = ''
+user.roles << admin_role
+user.roles << edit_role
+user.roles << helpdesk_role
+user.save!
